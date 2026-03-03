@@ -1,7 +1,7 @@
 import time
 
-print("Worker started")
+print("Video analysis worker started")
 
 while True:
-    print("Running...")
-    time.sleep(10)
+    print("Waiting for video jobs...")
+    time.sleep(15)
