@@ -24,7 +24,7 @@ def analyze(stats: MatchStats):
 
     pass_accuracy = 0
     if total_passes > 0:
-        pass_accuracy = (stats.completed_passes / total_passes) * 100
+        pass_accuracy = (stats.completed_passes / total_passes) * 100 
 
     # ציון פשוט לגרסה ראשונה
     score = (
